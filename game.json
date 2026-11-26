@@ -1,0 +1,56 @@
+{
+  "$schema": "https://raw.githubusercontent.com/pewplay/pewplay/main/schema/game.schema.json",
+  "title": "Word Search",
+  "description": "Find the hidden words in themed letter grids by dragging across them, from easy 8×8 puzzles to tricky 12×12 ones. Free in your browser.",
+  "about": "Word Search is a relaxing puzzle where every grid hides a list of words on one theme, such as animals, space, food, music, weather or travel. Twelve themes and random placement mean that every puzzle is different. Find a word, drag across it from the first letter to the last, and it lights up in color and gets crossed off the list.\n\nThree difficulty levels change the challenge. Easy uses an 8×8 grid with words running across or down. Medium has a 10×10 grid and adds diagonals. Hard fills a 12×12 grid with more words that can run in all eight directions, including backwards.\n\nThe timer tracks how fast you clear each grid, and your best time is saved for each difficulty.",
+  "howToPlay": "Look for the words in the list inside the letter grid. Press on the first letter of a word and drag to the last letter, then release. If the word is correct it stays highlighted and is crossed off. Find every word to finish the puzzle.",
+  "controls": [
+    {
+      "input": "Drag (mouse or touch)",
+      "action": "Select a word from first to last letter"
+    },
+    {
+      "input": "Esc / P",
+      "action": "Pause"
+    }
+  ],
+  "tips": [
+    "Scan for rare letters such as Q, X, Z or J: they make words easier to spot.",
+    "Look for the first two letters of a word next to each other.",
+    "On Hard, remember that words can run backwards and diagonally.",
+    "Start with the longest words: they are often the easiest to see."
+  ],
+  "faq": [
+    {
+      "question": "Is Word Search free to play?",
+      "answer": "Yes. Word Search is free and runs in your browser, with no download or sign-up."
+    },
+    {
+      "question": "Can I play on a phone or tablet?",
+      "answer": "Yes. Drag your finger across the letters to select a word. In portrait the word list sits under the grid, in landscape beside it."
+    },
+    {
+      "question": "How many themes are there?",
+      "answer": "Twelve: animals, food, space, sports, nature, ocean, music, weather, jobs, fruits, colors and travel, with a random theme in every puzzle."
+    }
+  ],
+  "category": "Word",
+  "tags": [
+    "word search",
+    "word game",
+    "puzzle",
+    "vocabulary",
+    "relaxing"
+  ],
+  "author": "PewPlay",
+  "playMode": "SinglePlayer",
+  "orientation": "any",
+  "cover": "cover.png",
+  "screenshots": [
+    "screenshots/1.png",
+    "screenshots/2.png",
+    "screenshots/3.png"
+  ],
+  "added": "2026-11-26",
+  "draft": false
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Word Search</title>
+  <link rel="stylesheet" href="style.css">
+  <style>:root { --bg: #fff8ef; --accent: #ff7a59; --icon-bg: rgba(0,0,0,.08); --icon-fg: #333; }</style>
+</head>
+<body>
+  <main id="game-container">
+    <canvas id="game" aria-label="Word Search game area"></canvas>
+
+    <div class="topbar">
+      <button id="pause-btn" class="icon-btn" type="button" aria-label="Pause"></button>
+      <button id="mute-btn" class="icon-btn" type="button" aria-label="Mute"></button>
+    </div>
+
+    <!-- Menu / pausa / fine partita -->
+    <div id="overlay" class="overlay">
+      <div class="overlay-content">
+        <h1 id="overlay-title"></h1>
+        <p id="overlay-text"></p>
+        <div id="overlay-choices"></div>
+        <div id="overlay-buttons"></div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Percorsi SEMPRE relativi: il gioco viene pubblicato in /<nome-repo>/play/ -->
+  <script src="kit.js"></script>
+  <script src="game.js"></script>
+</body>
+</html>
